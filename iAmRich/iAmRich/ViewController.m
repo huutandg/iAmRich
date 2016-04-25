@@ -27,6 +27,7 @@
 {
     [super viewWillAppear:animated];
     NSLog(@"ruby's alpha = %1.0f", self.ruby.alpha);
+    //ggggggggg
     [UIView animateWithDuration:4 animations:^{
         self.ruby.alpha = 1;
         NSLog(@"ruby's alpha = %1.0f", self.ruby.alpha);
